@@ -6,12 +6,12 @@ PrisSjek is a Proof of Concept (POC) application that allows users to easily che
 simply uploading a picture. The system extracts the product name from the image and searches FINN.no for its average
 price, presenting the results to the user.
 
-## Features
-* User Uploads an Image: The user takes a picture of an item and submits it. 
-* Product Recognition: AI extracts the product name from the image. 
-* Automated Price Lookup: OpenAI Agent searches for similar items on FINN.no.
-* Average Price Calculation: Agent calculates the average price of the item based on search results.
-* Results Displayed: The user sees the estimated price.
+## Process Flow
+1. User Uploads an Image: The user takes a picture of an item and submits it. 
+2. Product Recognition: AI extracts the product name from the image. 
+3. Automated Price Lookup: OpenAI Agent searches for similar items on FINN.no.
+4. Average Price Calculation: Agent calculates the average price of the item based on search results.
+5. Results Displayed: The user sees the estimated price.
 
 ## Technologies
 The project uses OpenAI's latest tools: Agents SDK and Responses API.
