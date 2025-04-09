@@ -6,7 +6,6 @@ from ai_prompts import img_recgonizer_prompt
 
 @function_tool
 def get_product(prdct_img: str) -> str:
-    print(prdct_img)
     img_recgonizer = OpenAI()
     image_to_product = img_recgonizer.responses.create(
         model="gpt-4o-mini",

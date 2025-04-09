@@ -23,7 +23,7 @@ Responses API does not always return most accurate results which is due to data 
 In order to improve its responses we need to fine-tune model with more data. \
 One of the ways to get more data to train model is scraping data from finn.no and using it. Main idea is
 to get product name and product image from already published ads on finn.no and save them in jsonl format. \
-This has been done in datacollection.py file and below is example of line which can be used to fine-tine model.
+This has been done in **datacollection.py** file and below is example of line which can be used to fine-tine model.
 ```json lines
 {
   "messages": [
